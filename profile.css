@@ -61,4 +61,5 @@ footer { width: 70%;}
 .button:hover {
     background-color:#F2CB61;
     color: white;
+    cursor: pointer;
 }
