@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'NEXON Lv2 Gothic Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color:rgba(255,242,230,0.3);
+}
+
+footer { width: 70%;}
+
+.index {
+    width: 70%;
+    margin: 50px 0px;
+    overflow: auto;
+}
+.me {
+    width:250px;
+    float: left;
+    margin-right: 30px;
+}
+.des {
+    text-align: left;
+}
+
+.data_description {
+    width: 70%;
+    min-height: 250px;
+    margin-top: 30px;
+    text-align: left;
+    overflow: auto;
+}
+
+.data_img {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.button {
+    width: 50%;
+    height: 16%;
+    margin: 5%;
+    border: solid 1px #A6A6A6;
+    border-radius: 10px;
+    line-height: 40px;
+    color: #A6A6A6;
+}
+
+.button:hover {
+    background-color:#F2CB61;
+    color: white;
+}
